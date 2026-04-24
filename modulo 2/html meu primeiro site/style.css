@@ -1,17 +1,17 @@
 body {
     font-family: Arial,  sans-serif; /* Font family */
     font-size: 11px; /* O tamanho da fonte principal<p></p> tag  */
-    background-color: #f0f0f0; /* A cor do plano de fundo da página */
+    background-color: #1e305d; /* A cor do plano de fundo da página */
     color: #333333; /* A cor do texto */ 
 }
 h1 {
-    color: #3b3643; /* A cor do cabeçalho */
+    color: #d6c7ed; /* A cor do cabeçalho */
     font-size: 34px; /* A cor da fonte do cabeçalho */
     font-family: Courier, Georgia, serif; /* A font usada no cabeçalho*/
 }
 
 h2 {
-    color: #41564a; /* A cor do segundo nível de cabeçalho */
+    color: #c1f8d9; /* A cor do segundo nível de cabeçalho */
     font-size: 28px; /* O tamanho da fonte do segundo nível de cabeçalho */
     font-family: 'Courier New', Courier, monospace; /* A font usada no segundo nível de cabeçalho */
 }
@@ -19,12 +19,17 @@ h2 {
 img {
     width: 400px; /* A largura da imagem */
     height: auto; /* A altura da imagem é ajustada automaticamente para manter a proporção */
-    border: 5px solid #383d3b; /* Adiciona uma borda à imagem */
+    border: 2px solid #f4f9f7; /* Adiciona uma borda à imagem */
     border-radius: 10px; /* Adiciona cantos arredondados à imagem */
 }
 
 p {
-    color: #2314c9; /* A cor do texto dos parágrafos */
+    color: #cac7e8; /* A cor do texto dos parágrafos */
     line-height: 1.6; /* O espaçamento entre as linhas dos parágrafos */
     font-family: Lucida, Helvetica, sans-serif; /* A font usada nos parágrafos */
+}
+ul {
+    list-style-type: square; /* Define o tipo de marcador para a lista */
+    color: #f4f9f7; /* A cor do texto dos itens da lista */
+    font-family: 'Times New Roman', Times, serif; /* A font usada nos itens da lista */
 }
